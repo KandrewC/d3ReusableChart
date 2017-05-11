@@ -1,7 +1,7 @@
 # d3ReusableChart
 
 This repo contains the D3 javascript code to create a *reusable* circular calendar that can keep track of anything from temperatures, grades, and so forth.
-Inspiration for this project can be found [here](https://bl.ocks.org/susielu/b6bdb82045c2aa8225f5). index.html is here for my own debugging purposes, so please ignore it. As I mention later on, I have added in sample data set and image of completed version to this repo. These were to help me finish the assignment as I moved between computers.
+Inspiration for this project can be found [here](https://bl.ocks.org/susielu/b6bdb82045c2aa8225f5). index.html is here for my own debugging purposes, so please ignore it. As I mention later on, I have added in sample data set and image of completed version to this repo. I don't intend on pushing to this repo in the future, so they are to make this repo more complete, and provide guidance to other people who may look at this repo.
 
 This package  is really good if you want to compare trends from from this year versus previous years (average) and against the extremes (min and max)
 
