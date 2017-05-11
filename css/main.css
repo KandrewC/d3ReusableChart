@@ -1,0 +1,77 @@
+body{
+        background-color: whitesmoke;
+     }
+
+     svg {
+        background-color: white;
+        font-family: 'Lato';
+     }
+
+     .axis {
+        stroke: white;
+        opacity: .8;
+     }
+
+     text.title {
+        font-size: 26px;
+     }
+
+     text.months, text.temp {
+      text-anchor: middle;
+      font-size: 12px;
+      fill: #39837B;
+     }
+
+     circle.axis {
+        stroke: white;
+        stroke-width: 1px;
+        fill: none;
+     }
+
+     circle.axis.record {
+        stroke: #bae0d6;
+        stroke-width: 1.2px;
+        opacity: 1;
+     }
+
+     line.record, line.avg, line.yearLow, line.yearHigh{
+      stroke-width: 2px;
+     }
+
+     line.record {
+        stroke: #bae0d6;
+     }
+
+     line.avg {
+        stroke: #3FA39E;
+        opacity: .5;
+     }
+
+     line.year {
+       stroke: #006358;
+
+     }
+
+     line.yearLow, line.yearHigh{
+        stroke: #F97F5A;
+     }
+
+     .avg {
+        stroke: #3FA39E;
+        fill: #3FA39E;
+     }
+
+     .record {
+        stroke: #bae0d6;
+        fill: #bae0d6;
+        .opacity: .5;
+     }
+
+     .year {
+        stroke: #F97F5A;
+        fill: #F97F5A;
+     }
+     .beyond {
+        stroke: #445E5B;
+        fill: #445E5B;
+     }
