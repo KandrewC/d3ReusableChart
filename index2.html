@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hierarchy: Exercise 1</title>
+
+    <!-- Libraries -->
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+    <script src="http://d3js.org/d3.v3.js"></script>
+    <script src="js/RecordPie.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/1.3.0/d3-legend.min.js"></script>
+
+    <link rel="stylesheet" href="css/main.css"/>
+
+    <!-- Custom files -->
+</head>
+
+<body class="container">
+        <div class="btn-group" data-toggle="buttons">
+            <label class="btn btn-primary">
+				<input value="gdp" type="radio" name="options" id="option1" autocomplete="off">GDP Per Capita
+			</label>
+            <label class="btn btn-primary">
+				<input value="life_expectancy" type="radio" name="options" id="option2" autocomplete="off" >Life Expectancy
+			</label>
+            <label class="btn btn-primary active">
+				<input value="fertility_rate" type="radio" name="options" id="option2" autocomplete="off" checked>Fertility Rate
+			</label>
+        </div>
+        <div id="vis"></div>
+</body>
+
+<!-- your script file -->
+
+</html>
